@@ -1,0 +1,127 @@
+[genuitec-file-id="wc4-8"],[genuitec-lp-path="/GeekTech/WebRoot/css/mystyle.css"],[genuitec-lp-enabled=false]{
+  /* for codelive */
+}
+
+
+*{
+	margin:0px;
+	padding:0px;
+}
+
+.footer a{
+    color:rgb(0,176,240);
+}
+
+/*#navigation a{*/
+    /*border-bottom: 2px solid rgb(34,34,34);*/
+/*}*/
+
+/*#navigation a:hover{*/
+/*border-bottom: 2px solid #fff;*/
+/*}*/
+
+
+#navbarBrand{
+    color: #fff;
+}
+
+/*#navbarBrand:hover{*/
+/*border-bottom: 2px solid rgb(34,34,34);*/
+/*cursor:pointer;*/
+/*}*/
+
+/*#carousel-generic{*/
+    /*padding-top:0px;*/
+    /*margin-top: 31px;*/
+/*}*/
+
+#carouselHome{
+    margin-top:50px;
+    padding:0px;
+}
+#section-1{
+    background-color: #fff;
+}
+#searchInput{
+    padding-right:20px;
+    margin-right:5px;
+}
+#searchBtn{
+    padding-left: 20px;
+    padding-right:20px;
+}
+/*.jumbotron{*/
+/*background-color: #fff;*/
+/*}*/
+
+.jumbotron div > a{
+    display: inline-block;
+    overflow: hidden;
+}
+.jumbotron div > a > img{
+    transition: all 0.7s;
+}
+.jumbotron div > a > img:hover{
+    transform: scale(1.2);
+}
+#AR-pic{
+    overflow: hidden;
+}
+#AR-pic > a{
+    display: inline-block;
+
+}
+#AR-pic > a > img{
+    cursor: pointer;
+    transition: all 0.7s;  /* 杩囨浮 */
+    opacity: 1.0;
+}
+/*#AR-pic > a:hover{*/
+/*margin-top: 10px;*/
+/*margin-bottom: 10px;*/
+/*box-shadow: 0px 0px 10px 10px #888888;*/
+/*}*/
+#AR-pic > a:hover > img{
+    transform: scale(1.1);
+    /*opacity: 0.8;*/
+
+}
+
+#section-1,#section-3,#section-5,#section-7,#section-2,#section-4,#section-6{
+    background-color: #fff;
+
+}
+
+#section-1 h2 + p,#section-2 h2 + p,#section-3 h2 + p ,#section-4 h2 + p,#section-5 h2 + p,#section-6 h2 + p,#section-7 h2 + p{
+    text-indent:2em;
+}
+
+
+
+
+.grad-right{
+    height: 2px;
+    width: 65%;
+    background: -webkit-linear-gradient(left,#fff,#DDDDDD,#ccc, red, orange, yellow, green, blue, indigo, violet,black,#CCCCCC); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(left,#fff,#DDDDDD,#ccc, red, orange, yellow, green, blue, indigo, violet,black,#CCCCCC); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(left,#fff,#DDDDDD,#ccc, red, orange, yellow, green, blue, indigo, violet,black,#CCCCCC); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #fff,#DDDDDD,#ccc,red, orange, yellow, green, blue, indigo, violet,black,#CCCCCC); /* 鏍囧噯鐨勮娉曪紙蹇呴』鏀惧湪鏈�鍚庯級 */
+}
+
+.grad-left{
+    height: 2px;
+    width: 65%;
+    background: -webkit-linear-gradient(left,#000,#DDDDDD,#ccc, red, orange, yellow, green, blue, indigo, violet,black,#CCCCCC,#fff); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(left,#000,#DDDDDD,#ccc, red, orange, yellow, green, blue, indigo, violet,black,#CCCCCC,#fff); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(left,#000,#DDDDDD,#ccc, red, orange, yellow, green, blue, indigo, violet,black,#CCCCCC,#fff); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right, #000,#DDDDDD,#ccc,red, orange, yellow, green, blue, indigo, violet,black,#CCCCCC,#fff); /* 鏍囧噯鐨勮娉曪紙蹇呴』鏀惧湪鏈�鍚庯級 */
+}
+
+.grad-footer{
+    height: 2px;
+    width: 100%;
+    background: -webkit-linear-gradient(left,#fff,#000,#ccc, red, orange, yellow, green, blue, indigo, violet,black,#CCCCCC,#fff); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(left,#fff,#000,#ccc,red, orange, yellow, green, blue, indigo, violet,black,#CCCCCC,#fff); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(left,#fff,#000,#ccc,red, orange, yellow, green, blue, indigo, violet,black,#CCCCCC,#fff); /* Firefox 3.6 - 15 */
+    background: linear-gradient(to right,#fff,#000,#ccc,red, orange, yellow, green, blue, indigo, violet,black,#CCCCCC,#fff); /* 鏍囧噯鐨勮娉曪紙蹇呴』鏀惧湪鏈�鍚庯級 */
+}

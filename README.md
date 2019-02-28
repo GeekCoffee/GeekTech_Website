@@ -2,7 +2,7 @@
 
 基于JSP开发的官方展示网站，嗯，其实开源的原因是考虑到有些同学想用来交毕业设计类的大作业的，以下的相关展示图
 
-![首页](/home/pic/demo.png)
+![](https://github.com/GeekCoffee/GeekTech_Website/blob/master/pic/demo.PNG)
 
 ## 项目特点
 

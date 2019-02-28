@@ -1,0 +1,3 @@
+*.js linguist-language=jsp
+*.css linguist-language=jsp
+*.html linguist-language=jsp

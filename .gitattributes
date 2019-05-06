@@ -1,4 +1,6 @@
+# git的attributes属性配置
 *.jsp linguist-language=javascript
 *.css linguist-language=javascript
 *.html linguist-language=javascript
 *.js linguist-language=javascript
+
